@@ -25,7 +25,9 @@ section{
 }
 
 img{
-    size: 50px;
+    max-width: 150px;
+    float: right;
+    margin: 5 px;
 }
 
 a{
