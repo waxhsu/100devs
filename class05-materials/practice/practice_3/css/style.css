@@ -10,9 +10,15 @@ header, footer{
     clear: both;
 }
 
-section{
+section.onefifth{
     float: left;
     border: 5px solid red;
-    height: 100px;
-    width: 33.3333%;
+    height: 200px;
+    width: 20%;
+}
+section.twofifth{
+    float: left;
+    border: 5px solid red;
+    height: 200px;
+    width: 40%;
 }

@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    font-size: xx-large;
+    height: 75px;
+    border: 5px solid black;
+    text-align: center;
+    clear: both;
+}
+
+section#top.top{
+    float: left;
+    border: 5px solid red;
+    height: 100px;
+    width: 100%;
+}
+
+section#left.bottom{
+    float: left;
+    border: 5px solid red;
+    height: 150px;
+    width: 40%;
+}
+
+section#right.bottom{
+    float: left;
+    border: 5px solid red;
+    height: 150px;
+    width: 60%;
+}

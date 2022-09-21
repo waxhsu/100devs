@@ -10,9 +10,16 @@ header, footer{
     clear: both;
 }
 
-section{
+section.top{
     float: left;
     border: 5px solid red;
     height: 100px;
     width: 33.3333%;
+}
+
+section.bottom{
+    float: left;
+    border: 5px solid red;
+    height: 150px;
+    width: 50%;
 }
