@@ -21,6 +21,10 @@ ul{
   width: 100%;
 }
 
+nav,a{
+  background-color: black;
+  color: white;
+}
 li{
   display: inline;
   list-style: none;
