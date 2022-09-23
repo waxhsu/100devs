@@ -19,24 +19,35 @@
 
 /******************************************
 /* BASE STYLES
-/*******************************************/
-
-body {
-
-}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+header nav > *{
+  float: left;
+  width: 15%;
+  margin: 0 5%;
+  list-style: none;
 }
 
-footer {
-
+header nav li{
+  float: left;
+  width: 33%;
 }
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+main{
+  width: 50%;
+  height: 600px;
+}
+
+img{
+  width: 50%;
+  float: left;
+}
+
+main > section h1, main > section img{
+  margin-top: 200px;
+
+}
