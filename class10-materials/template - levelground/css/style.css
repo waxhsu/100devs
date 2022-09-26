@@ -21,22 +21,89 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+body{
+  width: 100%;
+  text-align: center;
 }
 
+li{
+  list-style: none;
+  float: left;
+  margin: 0px 10px;
+}
+
+p{
+  margin-bottom: 30px;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header{
+  background-color: rgb(102,118,138);
 }
 
-footer {
+header nav, footer{
+  display: flex;
+  justify-content: space-between;
+}
 
+ul{
+  padding: 15px 20px 0 20px;
+}
+
+#intro{
+  margin: 0 10% 0 10%;
+  color: white;
+  border-bottom: 20px solid rgb(102,118,138);
+}
+
+h1{
+  font-size: 40px;
+}
+
+h4{
+  margin: 0 15% 3% 15%;
+}
+
+/******************************/
+
+.whitebg{
+  margin: 10% 30% 10% 30%;
+}
+
+/******************************/
+
+.greybg{
+  width: 100%;
+  background-color: rgba(211, 211, 211, 0.668);
+  display: flex;
+  padding: 0 10% 0 10%;
+}
+.splitbox{
+  margin: 40px 0 40px 0;
+}
+
+.seemore{
+  border: solid 1px darkgray;
+  padding: 10px 30px 10px 30px;
+}
+
+/******************************/
+
+
+
+
+footer, #copyright{
+  width: 100%;
+  float: left;
+  background-color: gold
+}
+
+.contact{
+  border: 2px solid black;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* ADDITIONAL STYLES  rgb(23,31,42);
 /*******************************************/
