@@ -68,6 +68,13 @@ form > a{
 
 section.page1{
   display: flex;
+  justify-content: flex-end;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+h1{
+  max-width: 100%;
 }
 
 section.page1 section{
@@ -76,6 +83,7 @@ section.page1 section{
 
 img{
   max-width: 50%;
+  max-height: 50%;
 }
 
 /******************************************
@@ -136,6 +144,7 @@ footer h6{
   
   img{
     max-width: 100%;
+    max-height: 100%;
   }
 
 
