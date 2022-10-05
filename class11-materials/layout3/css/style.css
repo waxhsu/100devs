@@ -21,11 +21,6 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
@@ -60,7 +55,7 @@ main section + section section{
   height: 250px;
   float: left;
   border: 1px solid black;
-} */
+} 
 nav, ul, main{
   display: flex;
   justify-content: space-around;
@@ -79,6 +74,38 @@ main section + section{
 .container{
   display: flex;
 }
+*/
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+* {
+  border: black solid;
+}
+
+ul{
+  flex-basis: 60%;
+}
+
+nav, ul, main{
+  display: flex;
+  justify-content: space-around;
+}
+
+main section{
+  flex-basis: 48%;
+}
+
+main section + section{
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+}
+
+h2 + section, h2 + section section{
+  display: flex;
+}
+
+h2 + section section{
+  flex-direction: column;
+  flex-basis: 40%;
+}
