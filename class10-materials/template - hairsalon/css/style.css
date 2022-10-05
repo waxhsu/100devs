@@ -21,21 +21,137 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
 
+* a{
+  text-decoration: none;
 }
+
+body{
+  max-width: fit-content;
+}
+
+header, main > section{
+  margin: 0 5%;
+}
+
+/******************************************
+/* header
+/*******************************************/
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: gray;
+}
+
+nav{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+nav nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > a, a.book{
+  color: black;
+  text-align: center;
+  padding:  1%;
+  font-size: small;
+}
+
+.icon{
+  height: 30px;
+  width: 30px;
+}
+
+.logo{
+  margin: 0;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: x-large;  
+}
+
+/******************************************
+/* page 1
+/*******************************************/
+
+.big{
+  color: gray;
+  font-size: 80px;
+  width: 40%;
+  margin-bottom: 0;
+  font-weight: lighter;
+}
+
+h3{
+  color: gray;
+  margin-bottom: 40px;
+}
+
+a.services{
+  background-color: black;
+  color: white;
+  font-weight: lighter;
+  margin-top: 200px;
+  padding: 10px 30px;
+}
+
+main section section{
+  margin-top: 80px;
+  border: black solid;
+  background-color: black;
+  padding: 2%;
+  width: 20%;
+}
+
+main section section > h5, section > span{
+  color: white;
+}
+
+span{
+  font-size: xx-large;
+}
+
+a.book{
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+  padding: 10px 10px;
+}
+
+aside{
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+
+aside section{
+  border: black solid;
+  text-align: center;
+  width: 25%;
+  margin: 0 1%
+}
+
+/******************************************
+/* page 2
+/*******************************************/
+.page2{
+  background-color: gray;
+  display: flex;
+}
+
 
 
 /******************************************
-/* LAYOUT
+/* ADDITIONAL STYLES
 /*******************************************/
-header {
 
-}
 
-footer {
 
-}
 
 /******************************************
 /* ADDITIONAL STYLES
