@@ -2,19 +2,15 @@ document.querySelector('#check').addEventListener('click', check)
 
 function check() {
 
-  const day = document.querySelector('#day').value
+  const day = document.querySelector('#day').value.toLowerCase()
 
-  //Conditionals go here
-
-    if(day === "Monday" || day === "Tuesday" || day === "Wednesday" || day === "Thursday"){
-      alert('class day!')
-    }else if(day === "Satuday" || day === "Sunday"){
-      alert('weekend')
+    if(day === "tuesday" || day === "thursday"){
+      console.log('class day!')
+    }else if(day === "satuday" || day === "sunday"){
+      console.log('weekend')
     }else{
-      alert("so it's like friday, but like idk")
+      console.log("so it's like friday, but like idk")
     }
-
-    document.querySelector('#placeToSee').innerText = total
   }
 
 //make the alert show up on the page

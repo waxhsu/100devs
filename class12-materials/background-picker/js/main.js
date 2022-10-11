@@ -1,17 +1,17 @@
-document.getElementById('purple').mouseenter = partyPurple
-document.getElementByID('green').mouseenter = partyGreen
+document.getElementById('blue').onmouseenter = partyTeal
+document.getElementById('grey').onmouseenter = partyGrey
 
-function partyPurple (){
-  document.querySelector('body').style.backgroundColor = 'rgba(241,63,247,1)'
-  document.querySelector('body').style.color = 'white'
+function partyTeal() {
+  document.querySelector('body').style.backgroundColor = 'rgba(0,254,255)'
+  document.querySelector('body').style.color = 'red'
 }
 
-function partyGreen(partyPurple) {
-  document.querySelector('body').style.backgroundColor = 'rgba(0,253,81,1)'
+function partyGrey() {
+  document.querySelector('body').style.backgroundColor = 'goldenrod'
   document.querySelector('body').style.color = 'white'
 }
 
 //purple rgba(241,63,247,1)
 //green rgba(0,253,81,1)
-//blue rgba(0,254,255);
+//blue rgba(0,254,255)
 //grey rgba(50,50,50);
