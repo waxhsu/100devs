@@ -16,20 +16,14 @@
 //     document.querySelector('#tempF').innerText = temp
 // }
 
-
-
-
-
-
-
 document.querySelector('#convert').addEventListener('click', convert)
 
-function convert () {
-//get tempC value
+function convert() {
     let temp = document.querySelector('#tempC').value
-//math tempC to tempF
-    temp = temp * 5/9 + 32
-//display tempF
+    //establish temp data
+    temp = temp * 9/5 + 32
+    //calculate tempC to tempF
     document.querySelector('#tempF').innerText = temp
+    //display tempF
 }
 

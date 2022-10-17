@@ -13,33 +13,48 @@ function check() {
   }
 **/
 
+// document.querySelector('#check').addEventListener('click', check)
+
+// function check() {
+//   const day = document.querySelector('#day').value.toLowerCase()
+//     if(day === "monday"){
+//       document.querySelector('#placeToSee').innerText = ('esta lunes')
+//     }
+//     else if(day === "tuesday"){
+//       document.querySelector('#placeToSee').innerText = ('martes, bro')
+//     }
+//     else if(day === "wednesday"){
+//       document.querySelector('#placeToSee').innerText = ('miercoles, bruh')
+//     }
+//     else if(day === "thursday" || day === "friday"){
+//       document.querySelector('#placeToSee').innerText = ('chillchill, bro')
+//     }
+//     else if(day === "saturday" || day === "sunday"){
+//       document.querySelector('#placeToSee').innerText = ('el fin de semana, man')
+//     }
+//     else {
+//       document.querySelector('#placeToSee').innerText = ('spel corretly u stupd')
+//     }
+// }
+
+
 document.querySelector('#check').addEventListener('click', check)
 
 function check() {
   const day = document.querySelector('#day').value.toLowerCase()
-    if(day === "monday"){
-      document.querySelector('#placeToSee').innerText = ('esta lunes')
-    }
-    else if(day === "tuesday"){
-      document.querySelector('#placetoSee').innerText = ('martes, bro')
-    }
-    else if(day === "wednesday"){
-      document.querySelector('#placetoSee').innerText = ('miercoles, bruh')
-    }
-    else if(day === "thursday" || day === "friday"){
-      document.querySelector('#placetoSee').innerText = ('chillchill, bro')
-    }
-    else if(day === "saturday" || day === "sunday"){
-      document.querySelector('#placetoSee').innerText = ('el fin de semana, man')
-    }
-    else {
-      document.querySelector('#placeToSee').innerText = ('spel corretly u stupd')
-    }
+
+  if (day === 'monday' || day === 'tuesday') {
+    document.querySelector('#placeToSee').innerText = ('yes')
+  }
+  else if (day === 'wednesday' || day === 'thursday') {
+    document.querySelector('#placeToSee').innerText = ('no')
+  }
+  else {
+    document.querySelector('#placeToSee').innerText = ('k')
+  }
+
 }
-
-
-
-
+//select adn find value of #day
 
 
 
