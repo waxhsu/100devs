@@ -8,14 +8,28 @@
 // convert from celcius to fahrenheit
 // show value in fahrenheit
 // 
+// document.querySelector('#convert').addEventListener('click', convert)
+
+// function convert() {
+//     let temp = document.querySelector('#tempC').value
+//     temp = temp * 9/5 + 32
+//     document.querySelector('#tempF').innerText = temp
+// }
+
+
+
+
+
+
+
 document.querySelector('#convert').addEventListener('click', convert)
 
-function convert() {
-// need value in celcius
+function convert () {
+//get tempC value
     let temp = document.querySelector('#tempC').value
-// convert from celcius to fahrenheit
-    temp = temp * 9/5 + 32
-// show value in fahrenheit
+//math tempC to tempF
+    temp = temp * 5/9 + 32
+//display tempF
     document.querySelector('#tempF').innerText = temp
-
 }
+
