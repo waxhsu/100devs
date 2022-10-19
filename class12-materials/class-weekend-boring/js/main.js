@@ -37,30 +37,3 @@ function check() {
 //     }
 // }
 
-
-document.querySelector('#check').addEventListener('click', check)
-
-function check() {
-  const day = document.querySelector('#day').value.toLowerCase()
-
-  if (day === 'monday' || day === 'tuesday') {
-    document.querySelector('#placeToSee').innerText = ('yes')
-  }
-  else if (day === 'wednesday' || day === 'thursday') {
-    document.querySelector('#placeToSee').innerText = ('no')
-  }
-  else {
-    document.querySelector('#placeToSee').innerText = ('k')
-  }
-
-}
-//select adn find value of #day
-
-
-
-
-
-
-
-
-
