@@ -37,3 +37,27 @@ function check() {
 //     }
 // }
 
+document.querySelector('#check').addEventListener('click', check)
+
+function check() {
+  const day = document.querySelector('#day').value.toLowerCase() 
+    if (day === 'monday' || day === 'tuesday') {
+      document.querySelector('#placeToSee').innerText = 'monday and tuesday are goldrenrod'
+      document.querySelector('body').style.backgroundColor = 'goldenrod'
+      document.querySelector('#placeToSee').style.color = 'white'
+      document.querySelector('body').style.color = 'white'
+  } else if (day === 'friday' || day === 'sunday') {
+      document.querySelector('#placeToSee').innerText = 'friday and sunday are grey'
+      document.querySelector('body').style.backgroundColor = 'grey'
+      document.querySelector('#placeToSee').style.color = 'yellow'
+      document.querySelector('body').style.color = 'goldenrod'
+  } else {
+      document.querySelector('#placeToSee').innerText = 'others are inverted'
+      document.querySelector('body').style.backgroundColor = 'red'
+      document.querySelector('#placeToSee').style.color = 'white'
+      document.querySelector('body').style.color = 'white'
+  }
+}
+
+
+
