@@ -1,52 +1,47 @@
 // // *Variables*
 // // Create a variable and console log the value
-let num = 5
-console.log (num)
+var x = 5
+console.log (x)
 
 // // Create a variable, add 10 to it, and alert the value
-console.log (num += 10)
+
+console.log (x += 10)
 
 // // *Functions*
 // // Create a function that subtracts 4 numbers and alerts the difference
-function diff1(a,s,d,f) {
-    let diff = (a-s-d-f)
-    console.log (diff1)
-}
-    // ORRRRRRRRRRR
-function diff2(a,s,d,f) {
+function diff (a,s,d,f) {
     console.log (a-s-d-f)
 }
 
+
 // // Create a function that divides one number by another and returns the remainder
 //div1 doesn't work because it will return the entire code; must use div2
-function div1(a,s) {
-    let div = (a/s)
-    return (diff1)
-}
 
-function div2(a,s) {
-    return a/s
+function div (a,s) {
+    return (a/s)
 }
-
 
 // // *Conditionals*
 // // Create a function that adds two numbers and if the sum is greater than 50 alert Jumanji
-function sum (a,s){
-    let sum = (a+s)
-    if (sum > 50) {
-        console.log ('jumanji')
-    } else if (sum = 50) {
-        console.log ('50')
+function jumanji(a,s) {
+    if (a+s > 50) {
+        return 'more than 50'
+    } else if (a+s === 50) {
+        return '50'
     } else {
-        console.log ('less than 50')
+        return 'less than 50'
     }
-
-    
 }
 
 // // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 
-
+function re (a,s,d) {
+    if (a*s*d % 3) {
+        return 'zebra'
+    } else {
+        return 'divisible by 3'
+    }
+}
 
 
 
