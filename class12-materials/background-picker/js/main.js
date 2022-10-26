@@ -18,14 +18,13 @@
 
 
 
+document.querySelector('#purple').onmouseenter = partyP
 
-
-
-
-
-
-
-
+function partyP () {
+    document.querySelector('body').style.backgroundColor = 'goldenrod'
+    document.querySelector('body').style.color = 'white'
+    
+}
 
 
 
