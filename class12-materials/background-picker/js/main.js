@@ -16,16 +16,10 @@
 //blue rgba(0,254,255)
 //grey rgba(50,50,50);
 
+document.querySelector('#purple').onmouseenter = partyPurple
 
-
-document.querySelector('#purple').onmouseenter = partyP
-
-function partyP () {
+function partyPurple() {
     document.querySelector('body').style.backgroundColor = 'goldenrod'
     document.querySelector('body').style.color = 'white'
-    
 }
-
-
-
 

@@ -60,19 +60,7 @@ function check() {
 // }
 
 
-document.querySelector('#check').addEventListener('click', check)
 
-function check () {
-  const day = document.querySelector('#day').value.toLowerCase()
-    if (day === 'monday') {
-      document.querySelector('#placeToSee').innerText = 'lunes'
-    } else if (day === 'friday') {
-      document.querySelector('#placeToSee').innerText = 'viene'  
-    } else {
-      document.querySelector('#placeToSee').innerText = 'ok'  
-    }
-  
-}
 
 
 
