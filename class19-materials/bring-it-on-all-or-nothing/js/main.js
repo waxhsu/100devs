@@ -5,6 +5,7 @@ console.log(x)
 
 // Declare a variable, reassign it to your favorite color, and console log the value
 let y = 'yellow'
+y = 'blue'
 console.log(y)
 
 // *Functions*
@@ -14,6 +15,8 @@ function poopy (a, b, c, d) {
     let result1 = (a + b + c)/d
     console.log(result1)
 }
+
+poopy (10, 20, 30, 5)
 
 // Create a function that takes in 2 numbers. Console log the first number to the power of the second. Call the function.
 function peepy (a, b) {
@@ -25,7 +28,17 @@ function peepy (a, b) {
 // *Conditionals*
 // Create a function that takes in a boolean and a string. If the boolean is true, alert the string. If the boolean is false, console log the string
 
-
+    function omg (a) {
+        let b = 'a string'
+        if (a === true) {
+            alert(b)
+        } else (a === false) 
+            console.log(b)
+        }
+    
+        // a ? alert(b) : console.log(b)
+// if a is true, go left. if a is false, go right
+const omg = (a, b) => a ? alert(b) : console.log(b)
 
 
 //*Loops*
