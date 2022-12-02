@@ -16,10 +16,16 @@
 //blue rgba(0,254,255)
 //grey rgba(50,50,50);
 
-document.querySelector('#purple').onmouseenter = partyPurple
 
-function partyPurple() {
+document.querySelector('#purple').onmouseenter = partyPurp
+
+function partyPurp() {
     document.querySelector('body').style.backgroundColor = 'goldenrod'
     document.querySelector('body').style.color = 'white'
+    document.querySelector('h2').innerText = 'I changed it'
+    
 }
+
+
+
 

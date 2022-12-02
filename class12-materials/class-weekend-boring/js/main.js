@@ -60,27 +60,17 @@ function check() {
 // }
 
 
-
 document.querySelector('#check').addEventListener('click', check)
 
-function check () {
-  const day = document.querySelector('#day').value.toLowerCase() 
-  if (day === 'monday') {
-    document.querySelector('#placeToSee').innerText = 'lunes'
-    document.querySelector('body').style.backgroundColor = 'goldenrod'
-    document.querySelector('h1').style.color = 'white'
-    document.querySelector('#placeToSee').style.color = 'white'
-    document.querySelector('label').style.color = 'white'
-  } else if (day === 'tuesday' || day === 'friday') {
-    document.querySelector('#placeToSee').innerText = '2 or 5'
-    document.querySelector('body').style.backgroundColor = 'navy'
-    document.querySelector('h1').style.color = 'white'
-    document.querySelector('#placeToSee').style.color = 'white'
-    document.querySelector('label').style.color = 'white'
-  } else {
-    document.querySelector('#placeToSee').innerText = 'red text'
-  }
+function check() {
+  const day = document.querySelector('#day').value.toLowerCase()
+    if (day === 'monday' || day === 'tuesday') {
+      document.querySelector('#placeToSee').innerText = 'you deed it1'
+    } else if (day === 'wednesday') {
+      document.querySelector('#placeToSee').innerText = 'you 2 deed it'
+    } else {
+      document.querySelector('#placeToSee').innerText = '3 you deed it'
+    }
 }
-
 
 
