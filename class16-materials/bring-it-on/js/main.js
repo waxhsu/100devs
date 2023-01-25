@@ -32,16 +32,26 @@ function jumanji (x,y) {
 
 // Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
 
-function showw (a,s,d){
-    if ((a*s*d) % 3){
-        return ('nope')
-    } else {
-        return ('yeah')
+// function showw (a,s,d){
+//     if ((a*s*d) % 3){
+//         return ('nope')
+//     } else {
+//         return ('yeah')
+//     }
+// }
+
+function showw(a,s,d){
+    let product = a*s*d
+    if (product %3 === 0){
+        console.log('ZEBRA')
     }
 }
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
 
-function loopy (x, y)
-console.log 
+function loopy (word, number){
+    for (i = 1; i <=number; i++){
+        console.log(word)
+    }
+}

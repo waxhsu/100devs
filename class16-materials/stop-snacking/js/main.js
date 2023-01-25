@@ -5,7 +5,9 @@ document.querySelector('#help').addEventListener('click', stopplz)
 
 function stopplz (){
     let num = Number(document.querySelector('input').value)
+    document.querySelector('#stops').innerText = ""
+    //this resets the DOM by replacing the results after output//
     for (i = 1; i <= num; i++){
-    document.querySelector('#stops').innerText += " sToP"
+        document.querySelector('#stops').innerText += " sToP"
     }
 }
