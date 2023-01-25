@@ -16,7 +16,7 @@
 //blue rgba(0,254,255)
 //grey rgba(50,50,50);
 
-document.querySelector('#purple').onclick = partyPurple
+document.querySelector('#purple').addEventListener('mouseover', partyPurple)
 document.querySelector('#green').onmouseenter = partyGreen
 
 function partyPurple() {

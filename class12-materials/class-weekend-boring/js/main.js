@@ -59,18 +59,18 @@ function check() {
 //   }
 // }
 
-
 document.querySelector('#check').addEventListener('click', check)
 
 function check() {
   const day = document.querySelector('#day').value.toLowerCase()
     if (day === 'monday' || day === 'tuesday') {
-      document.querySelector('#placeToSee').innerText = 'you deed it1'
+      document.querySelector('#placeToSee').innerText = ('1 or 2')
     } else if (day === 'wednesday') {
-      document.querySelector('#placeToSee').innerText = 'you 2 deed it'
+      document.querySelector('#placeToSee').innerText = ('3')
     } else {
-      document.querySelector('#placeToSee').innerText = '3 you deed it'
+      document.querySelector('#placeToSee').innerText = ('4+')
     }
-}
+  }
+
 
 
