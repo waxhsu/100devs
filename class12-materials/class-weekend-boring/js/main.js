@@ -61,16 +61,13 @@ function check() {
 
 document.querySelector('#check').addEventListener('click', check)
 
-function check() {
+function check (){
   const day = document.querySelector('#day').value.toLowerCase()
-    if (day === 'monday' || day === 'tuesday') {
-      document.querySelector('#placeToSee').innerText = ('1 or 2')
-    } else if (day === 'wednesday') {
-      document.querySelector('#placeToSee').innerText = ('3')
-    } else {
-      document.querySelector('#placeToSee').innerText = ('4+')
-    }
+  if (day === 'monday' || day === 'tuesday') {
+    document.querySelector('#placeToSee').innerText = 'montue'
+  } else if (day === 'friday' || day === 'sunday') {
+    document.querySelector('#placeToSee').innerText = 'chill'
+  } else {
+    document.querySelector('#placeToSee').innerText = 'sadf'
   }
-
-
-
+}

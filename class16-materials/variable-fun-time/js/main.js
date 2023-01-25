@@ -10,11 +10,11 @@ console.log (easy)
 
 //--- Medium
 //create a variable that holds a value from the input
-// let medium = document.querySelector('#danceDanceRevolution').value
-// //add 25 to that number
-// medium += 25
-// //alert that number
-// console.log (medium)
+let medium = document.querySelector('#danceDanceRevolution').value
+//add 25 to that number
+medium += 25
+//alert that number
+console.log (medium)
 
 //--- Hard
 //create a variable that holds the h1

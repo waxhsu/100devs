@@ -27,5 +27,12 @@ else if (age >= 30) {
 
 //--- Harder
 //On click of the h1
+document.querySelector('h1').addEventListener('click', para)
+
+
+function para (){
+    const para = document.querySelector('#danceDanceRevolution').value
+    alert (para)
+}
 //Take the value from the input
 //Place the result of the conditional in the paragraph
