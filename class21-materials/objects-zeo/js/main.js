@@ -28,8 +28,18 @@ let stopwatch = {}
 
 
 
+    function headsOrTails ( ) {
+        let result = Math.random ( )
+        if (result < .5) {
+            return 'heads'
+        } else {
+            return 'tails'
+        }
+    }
 
-    const areYouPlayingBanjo = name => name + (name[0].toLowerCase() === 'r' ? ' plays' : ' does not play') + ' banjo'
+const headOrTails = _ => Math.random < .5  ? 'heads' : 'tails'
+
+
 
 
 // function areYouPlayingBanjo(name) {
