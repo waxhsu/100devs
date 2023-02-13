@@ -3,6 +3,7 @@
 
 if (!localStorage.getItem('botScore')){
     localStorage.setItem('botScore', 0) // set 0, will reset if its in function
+
 }
 
 document.querySelector('button').addEventListener('click', addAnotherOne)
